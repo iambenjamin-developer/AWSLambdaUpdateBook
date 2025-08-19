@@ -47,3 +47,13 @@ Deploy function to AWS Lambda
     cd "AWSLambdaUpdateBook/src/AWSLambdaUpdateBook"
     dotnet lambda deploy-function
 ```
+
+Actualizar books
+```
+{
+  "pathParameters": {
+    "id": "4d1686c4-0054-4049-8629-b4a3191ef572"
+  },
+  "body": "{\"title\":\"Cuentos para pensar\",\"author\":\"Jorge Bucay\",\"published\":\"1997-03-01T10:15:30.1234567Z\"}"
+}
+```
